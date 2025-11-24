@@ -1,0 +1,106 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.forgetPass {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.shopsImg {
+    width: 260px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.descripeEntern {
+    margin: 20px;
+}
+
+.entern {
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+
+.ForgetLabel {
+    /* margin: 20px; */
+    position: relative;
+}
+
+.emailForget {
+    width: 60%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    padding: 8px;
+    margin: 20px 20px;
+
+}
+
+.next {
+    color: #000;
+    background-color: #77D1F3;
+    border-radius: 6px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.emailss {
+    text-align: left;
+    position: absolute;
+
+}
+
+.otp-reset {
+    /* width: 70%; */
+    margin: 0 auto;
+    display: flex;
+    gap: 0;
+}
+
+#otp {
+    width: 40px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+
+    &:focus {
+        border: 2px solid #000;
+    }
+}
+
+/* 
+.modal.show .modal-dialog {
+    width: 100% !important;
+    max-width: fit-content !important;
+    height: auto !important;
+    margin: auto !important;
+} */
+
+.otpdesign {
+    /* width: 50px;
+    height: 40px; */
+    width: 30%;
+    height: 30px;
+    border: 1px solid gray;
+    background-color: #ABABAB;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    /* border: none; */
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+    margin: 28px;
+}

@@ -1,0 +1,149 @@
+.formsControl {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.signIn {
+    background-color: white !important;
+    color: black !important;
+    width: 70px;
+    border-radius: 7px;
+    padding: 6px 8px;
+    text-align: center;
+    border: none;
+    /* border-radius: 7px; */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.linksPage {
+    color: black;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.icc {
+    position: relative;
+}
+
+.icc i {
+    top: 11px;
+    margin-right: 5px;
+    position: absolute;
+    left: 6px;
+    color: #6A6D6F;
+}
+
+.icc input::placeholder {
+    text-align: initial;
+    position: relative;
+    ;
+    left: 13px;
+}
+
+.iconn i {
+    font-size: 21px;
+    color: black;
+    align-items: center;
+    margin: 0px 3px;
+    display: flex;
+
+}
+
+
+.navbar-expand-sm .navbar-collapse {
+    align-items: center !important;
+}
+
+.navbar-brand {
+    padding: 0px
+}
+
+nav {
+    background-color: "#77D1F3" !important;
+}
+
+.nav-link {
+    padding: 0px !important;
+    margin-right: 20px;
+    font-weight: bold !important;
+    margin-bottom: 8px;
+}
+
+.navbar {
+    background-color: #77D1F3 !important;
+    height: "80px";
+}
+
+.icc {
+    display: flex;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        width: 100% !important;
+        display: flex;
+        justify-content: flex-end !important;
+    }
+}
+
+@media (max-width:1194px) {
+    /* .navbar-collapse {
+        flex-basis: 100% !important;
+        flex-grow: 1 !important;
+        align-items: center !important;
+    }
+
+    .collapse:not(.show) {
+        display: none !important;
+    }
+
+    .navbar-expand-sm .navbar-toggler {
+        display: block !important;
+    } */
+
+    /* .navbar-collapse{
+        display: flex!important;
+           }
+        /* 
+        .navbar-expand-sm .navbar-collapse {
+            align-items: center !important;
+        }
+        */
+    /* .navbar-expand-sm .navbar-collapse {
+        display: none !important;
+        flex-basis: auto;
+    } */
+}
+
+/* .dropdown-toggle {
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin-top: 14px;
+}
+
+.dropdown-menu {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    text-align: center !important;
+}
+
+.dropdown-item:hover {
+    color: #212529 !important;
+    background-color: white !important;
+} */
